@@ -45,8 +45,3 @@ class GraphFunction:
 
         turtle.update()
         screen.mainloop()
-
-f1 = GraphFunction("y=x**2/20-25",color="blue")
-f2 = GraphFunction("y=0/x-25",color="red")
-f3 = f1 + f2
-f3.draw_function(coordinate=(True, 400))
